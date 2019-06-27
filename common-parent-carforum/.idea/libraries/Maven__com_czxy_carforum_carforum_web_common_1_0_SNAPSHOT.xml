@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.czxy.carforum:carforum-web-common:1.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://D:/mavenworkspace/apache-maven-3.3.9/yycg_repository/com/czxy/carforum/carforum-web-common/1.0-SNAPSHOT/carforum-web-common-1.0-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://D:/mavenworkspace/apache-maven-3.3.9/yycg_repository/com/czxy/carforum/carforum-web-common/1.0-SNAPSHOT/carforum-web-common-1.0-SNAPSHOT-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://D:/mavenworkspace/apache-maven-3.3.9/yycg_repository/com/czxy/carforum/carforum-web-common/1.0-SNAPSHOT/carforum-web-common-1.0-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

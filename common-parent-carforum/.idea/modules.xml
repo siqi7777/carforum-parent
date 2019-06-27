@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/carforum-web-auth/carforum-web-auth.iml" filepath="$PROJECT_DIR$/carforum-web-auth/carforum-web-auth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/carforum-web-auth/carforum-web-auth-common/carforum-web-auth-common.iml" filepath="$PROJECT_DIR$/carforum-web-auth/carforum-web-auth-common/carforum-web-auth-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/carforum-web-auth/carforum-web-auth-service/carforum-web-auth-service.iml" filepath="$PROJECT_DIR$/carforum-web-auth/carforum-web-auth-service/carforum-web-auth-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/carforum-web-eureka/carforum-web-eureka.iml" filepath="$PROJECT_DIR$/carforum-web-eureka/carforum-web-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/carforum-web-gateway/carforum-web-gateway.iml" filepath="$PROJECT_DIR$/carforum-web-gateway/carforum-web-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/carforum-web-pojo/carforum-web-pojo.iml" filepath="$PROJECT_DIR$/carforum-web-pojo/carforum-web-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/carforum-web-service/carforum-web-service.iml" filepath="$PROJECT_DIR$/carforum-web-service/carforum-web-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-parent-carforum.iml" filepath="$PROJECT_DIR$/common-parent-carforum.iml" />
+    </modules>
+  </component>
+</project>

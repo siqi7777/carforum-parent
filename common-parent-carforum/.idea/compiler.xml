@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="carforum-web-auth-common" />
+        <module name="carforum-web-auth-service" />
+        <module name="carforum-web-eureka" />
+        <module name="carforum-web-gateway" />
+        <module name="carforum-web-pojo" />
+        <module name="carforum-web-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="carforum-web-auth" target="1.8" />
+      <module name="carforum-web-auth-common" target="1.8" />
+      <module name="carforum-web-auth-service" target="1.8" />
+      <module name="carforum-web-eureka" target="1.8" />
+      <module name="carforum-web-gateway" target="1.8" />
+      <module name="carforum-web-pojo" target="1.8" />
+      <module name="carforum-web-service" target="1.8" />
+      <module name="common-parent-carforum" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

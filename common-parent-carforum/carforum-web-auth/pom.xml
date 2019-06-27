@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>common-parent-carforum</artifactId>
+        <groupId>com.czxy.carforum</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>carforum-web-auth</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>carforum-web-auth-common</module>
+        <module>carforum-web-auth-service</module>
+    </modules>
+    <dependencies>
+        <!--发送短信-->
+        <dependency>
+            <groupId>com.aliyun</groupId>
+            <artifactId>aliyun-java-sdk-core</artifactId>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.github.1991wangliang/aliyun-java-sdk-dysmsapi -->
+        <dependency>
+            <groupId>com.github.1991wangliang</groupId>
+            <artifactId>aliyun-java-sdk-dysmsapi</artifactId>
+        </dependency>
+    </dependencies>
+
+
+
+</project>

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: tk.mybatis:mapper-spring-boot-starter:2.0.3">
+    <CLASSES>
+      <root url="jar://D:/mavenworkspace/apache-maven-3.3.9/yycg_repository/tk/mybatis/mapper-spring-boot-starter/2.0.3/mapper-spring-boot-starter-2.0.3.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://D:/mavenworkspace/apache-maven-3.3.9/yycg_repository/tk/mybatis/mapper-spring-boot-starter/2.0.3/mapper-spring-boot-starter-2.0.3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://D:/mavenworkspace/apache-maven-3.3.9/yycg_repository/tk/mybatis/mapper-spring-boot-starter/2.0.3/mapper-spring-boot-starter-2.0.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

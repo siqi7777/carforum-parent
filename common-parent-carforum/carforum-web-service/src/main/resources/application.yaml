@@ -1,0 +1,46 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: web-service
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/carforum?useUnicode=true&characterEncoding=utf8&autoReconnect=true&allowMultiQueries=true
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver    #驱动名：本身自动查询。可删
+    druid:
+      initial-size: 5
+      min-idle: 5
+      max-active: 20
+      max-wait: 1000
+      test-on-borrow: true
+#  servlet:
+#    multipart:
+#      max-file-size: 5MB   #上传文件大小配置
+
+#  security:
+#    user:
+#      name: admin
+#      password: admin
+
+#配置Eureka
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:10086/eureka
+  instance:
+    prefer-ip-address: true
+    ip-address: 127.0.0.1
+    instance-id: ${eureka.instance.ip-address}.${server.port}
+    lease-renewal-interval-in-seconds: 3
+    lease-expiration-duration-in-seconds: 10
+
+mybatis:
+  type-aliases-package: com.czxy.carforum.pojo
+
+#多余的询问 上边已经确定过使用mysql
+#mapper:
+#  not-empty: false
+#  identity: mysql
+
